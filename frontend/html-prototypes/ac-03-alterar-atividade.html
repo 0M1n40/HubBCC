@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Alterar atividade complementar — HubBCC</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <span class="sistema">HubBCC — Atividades Complementares</span>
+  <span class="perfil">Perfil: Aluno</span>
+</header>
+<nav class="breadcrumb"><a href="index.html">← Índice</a> · vindo de <a href="ac-02-consultar-atividades.html">Consultar atividades</a></nav>
+
+<main>
+  <h1>Alterar atividade complementar</h1>
+  <p class="caso-de-uso"> · Ator: Aluno · corrige dados de uma atividade já registrada.</p>
+
+  <div class="painel">
+    <label for="atividade">Atividade</label>
+    <input id="atividade" value="Curso de Git e GitHub">
+
+    <div class="linha">
+      <div>
+        <label for="categoria">Categoria</label>
+        <select id="categoria">
+          <option>Evento</option>
+          <option selected>Curso</option>
+          <option>Projeto</option>
+          <option>Monitoria</option>
+          <option>Outra</option>
+        </select>
+      </div>
+      <div>
+        <label for="horas">Carga horária (horas)</label>
+        <input type="number" id="horas" value="4" min="1">
+      </div>
+    </div>
+
+    <label for="comprovante">Substituir comprovante (opcional)</label>
+    <input type="file" id="comprovante">
+
+    <div class="acoes">
+      <button class="botao-primario" type="button" onclick="window.location='ac-02-consultar-atividades.html'">Salvar alterações</button>
+      <a class="botao botao-secundario" href="ac-02-consultar-atividades.html">Cancelar</a>
+    </div>
+  </div>
+</main>
+<footer class="rodape">Protótipo — dados fictícios.</footer>
+</body>
+</html>

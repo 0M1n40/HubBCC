@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Cancelar candidatura — HubBCC</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <span class="sistema">HubBCC — Oportunidades Acadêmicas</span>
+  <span class="perfil">Perfil: Aluno</span>
+</header>
+<nav class="breadcrumb"><a href="index.html">← Índice</a> · vindo de <a href="oa-07-consultar-candidaturas.html">Consultar candidaturas</a></nav>
+
+<main>
+  <h1>Cancelar candidatura</h1>
+  <p class="caso-de-uso"> · Ator: Aluno · desiste de uma candidatura enviada, liberando a vaga para outros interessados.</p>
+
+  <div class="alerta">Esta ação não pode ser desfeita. Você poderá se candidatar novamente enquanto o prazo estiver aberto.</div>
+
+  <div class="painel">
+    <p><strong>Oportunidade:</strong> Iniciação Científica em Sistemas Distribuídos</p>
+    <p><strong>Enviada em:</strong> 01/09</p>
+    <p><strong>Status:</strong> Em análise</p>
+
+    <label for="motivo">Motivo do cancelamento (opcional)</label>
+    <textarea id="motivo" placeholder="Ex.: incompatibilidade de horário"></textarea>
+
+    <div class="acoes">
+      <button class="botao-perigo" type="button" onclick="window.location='oa-07-consultar-candidaturas.html'">Confirmar cancelamento</button>
+      <a class="botao botao-secundario" href="oa-07-consultar-candidaturas.html">Voltar</a>
+    </div>
+  </div>
+</main>
+<footer class="rodape">Protótipo — dados fictícios.</footer>
+</body>
+</html>
