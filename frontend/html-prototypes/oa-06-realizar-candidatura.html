@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Realizar candidatura — HubBCC</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <span class="sistema">HubBCC — Oportunidades Acadêmicas</span>
+  <span class="perfil">Perfil: Aluno</span>
+</header>
+<nav class="breadcrumb"><a href="index.html">← Índice</a> · vindo de <a href="oa-02-consultar-oportunidades.html">Consultar oportunidades</a></nav>
+
+<main>
+  <h1>Realizar candidatura</h1>
+  <p class="caso-de-uso"> · Ator: Aluno · candidata-se a uma oportunidade acadêmica de interesse.</p>
+
+  <div class="painel">
+    <p><strong>Oportunidade:</strong> Iniciação Científica em Sistemas Distribuídos</p>
+    <p><strong>Vagas:</strong> 2 · <strong>Prazo:</strong> 30/09</p>
+
+    <label for="motivacao">Carta de motivação</label>
+    <textarea id="motivacao" placeholder="Ex.: tenho interesse em sistemas distribuídos desde a disciplina de Redes..."></textarea>
+
+    <label for="anexo">Anexar currículo/histórico (opcional)</label>
+    <input type="file" id="anexo">
+
+    <div class="acoes">
+      <button class="botao-primario" type="button" onclick="window.location='oa-07-consultar-candidaturas.html'">Enviar candidatura</button>
+      <a class="botao botao-secundario" href="oa-02-consultar-oportunidades.html">Cancelar</a>
+    </div>
+  </div>
+</main>
+<footer class="rodape">Protótipo — dados fictícios.</footer>
+</body>
+</html>

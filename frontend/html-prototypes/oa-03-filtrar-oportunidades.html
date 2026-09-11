@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Filtrar oportunidades — HubBCC</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <span class="sistema">HubBCC — Oportunidades Acadêmicas</span>
+  <span class="perfil">Perfil: Aluno</span>
+</header>
+<nav class="breadcrumb"><a href="index.html">← Índice</a> · vindo de <a href="oa-02-consultar-oportunidades.html">Consultar oportunidades</a></nav>
+
+<main>
+  <h1>Filtrar oportunidades</h1>
+  <p class="caso-de-uso"> · Ator: Aluno · restringe a lista de oportunidades por tipo ou prazo.</p>
+
+  <div class="painel">
+    <label for="tipo">Tipo</label>
+    <select id="tipo">
+      <option>Todas</option>
+      <option>Iniciação científica</option>
+      <option>Extensão</option>
+      <option>Evento</option>
+      <option>Projeto interno</option>
+    </select>
+
+    <label for="status">Status</label>
+    <select id="status">
+      <option>Abertas</option>
+      <option>Encerradas</option>
+      <option>Todas</option>
+    </select>
+
+    <div class="acoes">
+      <button class="botao-primario" type="button" onclick="window.location='oa-02-consultar-oportunidades.html'">Aplicar filtro</button>
+      <a class="botao botao-secundario" href="oa-02-consultar-oportunidades.html">Limpar filtros</a>
+    </div>
+  </div>
+</main>
+<footer class="rodape">Protótipo — dados fictícios.</footer>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Encerrar oportunidade acadêmica — HubBCC</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <span class="sistema">HubBCC — Oportunidades Acadêmicas</span>
+  <span class="perfil">Perfil: Professor</span>
+</header>
+<nav class="breadcrumb"><a href="index.html">← Índice</a> · vindo de <a href="oa-02-consultar-oportunidades.html">Consultar oportunidades</a></nav>
+
+<main>
+  <h1>Encerrar oportunidade acadêmica</h1>
+  <p class="caso-de-uso"> · Ator: Professor · encerra uma oportunidade, impedindo novas candidaturas.</p>
+
+  <div class="alerta">Alunos com candidatura pendente ainda poderão ser avaliados, mas nenhuma nova candidatura será aceita.</div>
+
+  <div class="painel">
+    <p><strong>Oportunidade:</strong> Iniciação Científica em Sistemas Distribuídos</p>
+    <p><strong>Candidaturas recebidas:</strong> 6</p>
+
+    <label for="motivo">Motivo do encerramento (opcional)</label>
+    <textarea id="motivo" placeholder="Ex.: vagas preenchidas"></textarea>
+
+    <div class="acoes">
+      <button class="botao-perigo" type="button" onclick="window.location='oa-02-consultar-oportunidades.html'">Confirmar encerramento</button>
+      <a class="botao botao-secundario" href="oa-02-consultar-oportunidades.html">Voltar</a>
+    </div>
+  </div>
+</main>
+<footer class="rodape">Protótipo — dados fictícios.</footer>
+</body>
+</html>

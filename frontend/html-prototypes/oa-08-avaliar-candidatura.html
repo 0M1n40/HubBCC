@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Avaliar candidatura — HubBCC</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <span class="sistema">HubBCC — Oportunidades Acadêmicas</span>
+  <span class="perfil">Perfil: Professor</span>
+</header>
+<nav class="breadcrumb"><a href="index.html">← Índice</a></nav>
+
+<main>
+  <h1>Avaliar candidatura</h1>
+  <p class="caso-de-uso">· Ator: Professor · analisa e decide sobre uma candidatura recebida.</p>
+
+  <div class="painel">
+    <p><strong>Oportunidade:</strong> Iniciação Científica em Sistemas Distribuídos</p>
+    <p><strong>Candidato:</strong> Geovanne G. Souza</p>
+    <p><strong>Carta de motivação:</strong> "Tenho interesse em sistemas distribuídos desde a disciplina de Redes..."</p>
+
+    <label for="decisao">Decisão</label>
+    <select id="decisao">
+      <option>Aprovar</option>
+      <option>Não selecionar</option>
+      <option>Manter em análise</option>
+    </select>
+
+    <label for="observacao">Observação para o candidato (opcional)</label>
+    <textarea id="observacao"></textarea>
+
+    <div class="acoes">
+      <button class="botao-primario" type="button" onclick="window.location='oa-02-consultar-oportunidades.html'">Registrar decisão</button>
+      <a class="botao botao-secundario" href="oa-02-consultar-oportunidades.html">Voltar</a>
+    </div>
+  </div>
+</main>
+<footer class="rodape">Protótipo — dados fictícios.</footer>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Cadastrar disciplina — HubBCC</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <span class="sistema">HubBCC — Sistema de Monitoria</span>
+  <span class="perfil">Perfil: Administrador</span>
+</header>
+<nav class="breadcrumb"><a href="index.html">← Índice</a> · Prioridade 12</nav>
+
+<main>
+  <h1>Cadastrar disciplina</h1>
+  <p class="caso-de-uso"> · Ator: Administrador · inclui uma nova disciplina no sistema.</p>
+
+  <div class="painel">
+    <div class="linha">
+      <div>
+        <label for="codigo">Código</label>
+        <input id="codigo" placeholder="Ex.: BCC-204">
+      </div>
+      <div>
+        <label for="periodo">Período</label>
+        <input id="periodo" type="number" placeholder="Ex.: 4" min="1">
+      </div>
+    </div>
+
+    <label for="nome">Nome da disciplina</label>
+    <input id="nome" placeholder="Ex.: Estruturas de Dados">
+
+    <label for="ementa">Ementa resumida (opcional)</label>
+    <textarea id="ementa" placeholder="Ex.: listas, pilhas, filas, árvores e grafos"></textarea>
+
+    <div class="acoes">
+      <button class="botao-primario" type="button" onclick="window.location='13-consultar-disciplina.html'">Cadastrar disciplina</button>
+      <a class="botao botao-secundario" href="13-consultar-disciplina.html">Cancelar</a>
+    </div>
+  </div>
+</main>
+<footer class="rodape">Protótipo — dados fictícios.</footer>
+</body>
+</html>

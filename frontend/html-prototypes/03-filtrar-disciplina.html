@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Filtrar disciplina — HubBCC</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <span class="sistema">HubBCC — Sistema de Monitoria</span>
+  <span class="perfil">Perfil: Aluno</span>
+</header>
+<nav class="breadcrumb"><a href="index.html">← Índice</a> · Prioridade 3 · vindo de <a href="02-consultar-monitoria.html">Consultar monitoria</a></nav>
+
+<main>
+  <h1>Filtrar disciplina</h1>
+  <p class="caso-de-uso"> · Ator: Aluno · restringe a lista de monitorias por disciplina, dia ou modalidade.</p>
+
+  <div class="painel">
+    <div class="linha">
+      <div>
+        <label for="disciplina">Disciplina</label>
+        <select id="disciplina">
+          <option>Todas</option>
+          <option selected>Estruturas de Dados</option>
+          <option>Ta Certo isso ?</option>
+          <option>Álgebra Linear II</option>
+          <option>Banco de Dados</option>
+          <option>Engenharia de Software</option>
+        </select>
+      </div>
+      <div>
+        <label for="dia">Dia da semana</label>
+        <select id="dia">
+          <option>Qualquer</option>
+          <option>Segunda</option>
+          <option>Terça</option>
+          <option selected>Quarta</option>
+          <option>Quinta</option>
+          <option>Sexta</option>
+        </select>
+      </div>
+    </div>
+
+    <label for="modalidade">Modalidade</label>
+    <select id="modalidade">
+      <option>Qualquer</option>
+      <option>Remota</option>
+      <option>Presencial</option>
+    </select>
+
+    <div class="acoes">
+      <button class="botao-primario" type="button" onclick="window.location='02-consultar-monitoria.html'">Aplicar filtro</button>
+      <a class="botao botao-secundario" href="02-consultar-monitoria.html">Limpar filtros</a>
+    </div>
+  </div>
+</main>
+<footer class="rodape">Protótipo — dados fictícios.</footer>
+</body>
+</html>

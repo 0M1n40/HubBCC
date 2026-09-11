@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Consultar agendamento — HubBCC</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <span class="sistema">HubBCC — Sistema de Monitoria</span>
+  <span class="perfil">Perfil: Aluno</span>
+</header>
+<nav class="breadcrumb"><a href="index.html">← Índice</a> · Prioridade 6</nav>
+
+<main>
+  <h1>Consultar agendamento</h1>
+  <p class="caso-de-uso"> · Ator: Aluno · acompanha os agendamentos realizados.</p>
+
+  <div class="painel">
+    <table>
+      <tr><th>Disciplina</th><th>Monitor</th><th>Data</th><th>Status</th><th></th></tr>
+      <tr>
+        <td>Estruturas de Dados</td><td>Samuel T.</td><td>Qua, 10/09 — 19h00</td>
+        <td><span class="badge badge-pendente">Confirmado</span></td>
+        <td class="tabela-acoes">
+          <a href="07-reagendar-agendamento.html">Reagendar</a>
+          <a href="08-cancelar-agendamento.html">Cancelar</a>
+        </td>
+      </tr>
+      <tr>
+        <td>Álgebra Linear II</td><td>Mina I.</td><td>Sex, 12/09 — 14h00</td>
+        <td><span class="badge badge-pendente">Confirmado</span></td>
+        <td class="tabela-acoes">
+          <a href="07-reagendar-agendamento.html">Reagendar</a>
+          <a href="08-cancelar-agendamento.html">Cancelar</a>
+        </td>
+      </tr>
+      <tr>
+        <td>Banco de Dados</td><td>Marina S.</td><td>Ter, 02/09 — 10h00</td>
+        <td><span class="badge badge-ok">Realizado</span></td>
+        <td></td>
+      </tr>
+    </table>
+  </div>
+</main>
+<footer class="rodape">Protótipo — dados fictícios.</footer>
+</body>
+</html>

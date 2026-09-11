@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Registrar atividade complementar — HubBCC</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <span class="sistema">HubBCC — Atividades Complementares</span>
+  <span class="perfil">Perfil: Aluno</span>
+</header>
+<nav class="breadcrumb"><a href="index.html">← Índice</a></nav>
+
+<main>
+  <h1>Registrar atividade complementar</h1>
+  <p class="caso-de-uso"> · Ator: Aluno · registra uma atividade realizada relevante para horas complementares.</p>
+
+  <div class="painel">
+    <label for="atividade">Atividade</label>
+    <input id="atividade" placeholder="Ex.: Semana Acadêmica de Computação 2026">
+
+    <div class="linha">
+      <div>
+        <label for="categoria">Categoria</label>
+        <select id="categoria">
+          <option>Evento</option>
+          <option>Curso</option>
+          <option>Projeto</option>
+          <option>Monitoria</option>
+          <option>Outra</option>
+        </select>
+      </div>
+      <div>
+        <label for="horas">Carga horária (horas)</label>
+        <input type="number" id="horas" value="8" min="1">
+      </div>
+    </div>
+
+    <label for="comprovante">Comprovante</label>
+    <input type="file" id="comprovante">
+
+    <div class="acoes">
+      <button class="botao-primario" type="button" onclick="window.location='ac-02-consultar-atividades.html'">Registrar atividade</button>
+      <a class="botao botao-secundario" href="ac-02-consultar-atividades.html">Cancelar</a>
+    </div>
+  </div>
+</main>
+<footer class="rodape">Protótipo — dados fictícios.</footer>
+</body>
+</html>

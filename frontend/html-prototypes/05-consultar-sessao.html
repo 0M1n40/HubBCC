@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Consultar sessão — HubBCC</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <span class="sistema">HubBCC — Sistema de Monitoria</span>
+  <span class="perfil">Perfil: Monitor</span>
+</header>
+<nav class="breadcrumb"><a href="index.html">← Índice</a> · Prioridade 5</nav>
+
+<main>
+  <h1>Consultar sessão</h1>
+  <p class="caso-de-uso"> · Ator: Monitor · visualiza as sessões criadas ou sob sua responsabilidade.</p>
+
+  <div class="painel">
+    <a class="botao botao-secundario" href="04-criar-sessao.html">+ Nova sessão</a>
+
+    <table style="margin-top:16px;">
+      <tr><th>Disciplina</th><th>Data</th><th>Vagas</th><th>Status</th><th></th></tr>
+      <tr>
+        <td>Estruturas de Dados</td><td>Qua, 10/09 — 19h00</td><td>3 / 5</td>
+        <td><span class="badge badge-ok">Ativa</span></td>
+        <td class="tabela-acoes">
+          <a href="10-alterar-sessao.html">Alterar</a>
+          <a href="11-cancelar-sessao.html">Cancelar</a>
+        </td>
+      </tr>
+      <tr>
+        <td>Engenharia de Software</td><td>Qui, 12/09 — 16h00</td><td>4 / 4</td>
+        <td><span class="badge badge-ok">Ativa</span></td>
+        <td class="tabela-acoes">
+          <a href="10-alterar-sessao.html">Alterar</a>
+          <a href="11-cancelar-sessao.html">Cancelar</a>
+        </td>
+      </tr>
+      <tr>
+        <td>Estruturas de Dados</td><td>Qua, 03/09 — 19h00</td><td>5 / 5</td>
+        <td><span class="badge badge-cancelado">Concluída</span></td>
+        <td class="tabela-acoes">
+          <a href="09-registrar-aula.html">Registrar aula</a>
+        </td>
+      </tr>
+    </table>
+  </div>
+</main>
+<footer class="rodape">Protótipo — dados fictícios.</footer>
+</body>
+</html>

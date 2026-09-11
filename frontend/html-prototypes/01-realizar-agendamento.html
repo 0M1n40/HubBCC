@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Realizar agendamento — HubBCC</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <span class="sistema">HubBCC — Sistema de Monitoria</span>
+  <span class="perfil">Perfil: Aluno</span>
+</header>
+<nav class="breadcrumb"><a href="index.html">← Índice</a> · Prioridade 1 · vindo de <a href="02-consultar-monitoria.html">Consultar monitoria</a></nav>
+
+<main>
+  <h1>Realizar agendamento</h1>
+  <p class="caso-de-uso"> · Ator: Aluno · este é o ponto em que o aluno efetivamente obtém o serviço de monitoria.</p>
+
+  <div class="painel">
+    <p><strong>Sessão selecionada:</strong> Estruturas de Dados — Geovanne.G. — quarta-feira, 19h00</p>
+
+    <label for="data">Data do atendimento</label>
+    <select id="data" name="data">
+      <option>Quarta, 10/09 — 19h00 (3 vagas)</option>
+      <option>Quarta, 17/09 — 19h00 (5 vagas)</option>
+      <option>Sexta, 12/09 — 14h00 (1 vaga)</option>
+    </select>
+
+    <label for="modalidade">Modalidade</label>
+    <select id="modalidade" name="modalidade">
+      <option>Remota (chamada de vídeo)</option>
+      <option>Presencial — Bloco B, sala 204</option>
+    </select>
+
+    <label for="observacoes">Observações para o monitor (opcional)</label>
+    <textarea id="observacoes" placeholder="Ex.: gostaria de revisar árvores AVL antes da prova"></textarea>
+
+    <div class="acoes">
+      <button class="botao-primario" type="button" onclick="window.location='06-consultar-agendamento.html'">Confirmar agendamento</button>
+      <a class="botao botao-secundario" href="02-consultar-monitoria.html">Cancelar</a>
+    </div>
+  </div>
+</main>
+<footer class="rodape">Protótipo — dados fictícios.</footer>
+</body>
+</html>

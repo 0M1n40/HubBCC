@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Registrar aula — HubBCC</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <span class="sistema">HubBCC — Sistema de Monitoria</span>
+  <span class="perfil">Perfil: Monitor</span>
+</header>
+<nav class="breadcrumb"><a href="index.html">← Índice</a> · Prioridade 9 · vindo de <a href="05-consultar-sessao.html">Consultar sessão</a></nav>
+
+<main>
+  <h1>Registrar aula</h1>
+  <p class="caso-de-uso">Caso de uso 9 · Ator: Monitor · registra a realização do atendimento após a monitoria.</p>
+
+  <div class="painel">
+    <p><strong>Sessão:</strong> Estruturas de Dados — Qua, 03/09, 19h00</p>
+
+    <label for="presentes">Alunos presentes</label>
+    <select id="presentes" multiple size="3">
+      <option selected>Geovanne G. Souza</option>
+      <option selected>Cleberson Mendes</option>
+      <option>Temiston Klei(faltou)</option>
+    </select>
+
+    <label for="conteudo">Conteúdo abordado</label>
+    <textarea id="conteudo" placeholder="Ex.: listas encadeadas simples e duplas, exercícios de fixação"></textarea>
+
+    <div class="acoes">
+      <button class="botao-primario" type="button" onclick="window.location='05-consultar-sessao.html'">Concluir registro</button>
+      <a class="botao botao-secundario" href="05-consultar-sessao.html">Cancelar</a>
+    </div>
+  </div>
+</main>
+<footer class="rodape">Protótipo — dados fictícios.</footer>
+</body>
+</html>

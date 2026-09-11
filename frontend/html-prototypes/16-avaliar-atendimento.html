@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Avaliar atendimento — HubBCC</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <span class="sistema">HubBCC — Apoio Acadêmico</span>
+  <span class="perfil">Perfil: Aluno</span>
+</header>
+<nav class="breadcrumb"><a href="index.html">← Índice</a> · vindo de <a href="06-consultar-agendamento.html">Consultar agendamento</a></nav>
+
+<main>
+  <h1>Avaliar atendimento</h1>
+  <p class="caso-de-uso">· Ator: Aluno · avalia a experiência após a realização da monitoria/tutoria.</p>
+
+  <div class="painel">
+    <p><strong>Disciplina:</strong> Banco de Dados</p>
+    <p><strong>Monitor:</strong> Cleber.S .</p>
+    <p><strong>Data:</strong> Terça, 02/09 — 10h00</p>
+
+    <label for="nota">Nota geral</label>
+    <select id="nota">
+      <option>5 — Excelente</option>
+      <option>4 — Muito bom</option>
+      <option selected>3 — Bom</option>
+      <option>2 — Regular</option>
+      <option>1 — Ruim</option>
+    </select>
+
+    <label for="comentario">Comentário (opcional)</label>
+    <textarea id="comentario" placeholder="Ex.: explicação clara, ajudou bastante com os exercícios de normalização"></textarea>
+
+    <div class="acoes">
+      <button class="botao-primario" type="button" onclick="window.location='06-consultar-agendamento.html'">Enviar avaliação</button>
+      <a class="botao botao-secundario" href="06-consultar-agendamento.html">Pular</a>
+    </div>
+  </div>
+</main>
+<footer class="rodape">Protótipo — dados fictícios.</footer>
+</body>
+</html>

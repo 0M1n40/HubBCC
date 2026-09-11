@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Reagendar agendamento — HubBCC</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <span class="sistema">HubBCC — Sistema de Monitoria</span>
+  <span class="perfil">Perfil: Aluno</span>
+</header>
+<nav class="breadcrumb"><a href="index.html">← Índice</a> · Prioridade 7 · vindo de <a href="06-consultar-agendamento.html">Consultar agendamento</a></nav>
+
+<main>
+  <h1>Reagendar agendamento</h1>
+  <p class="caso-de-uso"> · Ator: Aluno · altera o horário ou sessão de um agendamento já existente.</p>
+
+  <div class="painel">
+    <p><strong>Agendamento atual:</strong> Estruturas de Dados — Geovanne.G. — quarta-feira, 10/09, 19h00</p>
+
+    <label for="nova-sessao">Nova sessão disponível</label>
+    <select id="nova-sessao">
+      <option>Quarta, 17/09 — 19h00 (5 vagas)</option>
+      <option>Sexta, 19/09 — 14h00 (2 vagas)</option>
+      <option>Quinta, 18/09 — 16h00 (1 vaga)</option>
+    </select>
+
+    <label for="motivo">Motivo do reagendamento (opcional)</label>
+    <textarea id="motivo" placeholder="Ex.: conflito de horário com outra disciplina"></textarea>
+
+    <div class="acoes">
+      <button class="botao-primario" type="button" onclick="window.location='06-consultar-agendamento.html'">Confirmar novo horário</button>
+      <a class="botao botao-secundario" href="06-consultar-agendamento.html">Voltar sem alterar</a>
+    </div>
+  </div>
+</main>
+<footer class="rodape">Protótipo — dados fictícios.</footer>
+</body>
+</html>

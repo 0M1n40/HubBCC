@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Consultar monitoria — HubBCC</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <span class="sistema">HubBCC — Sistema de Monitoria</span>
+  <span class="perfil">Perfil: Aluno</span>
+</header>
+<nav class="breadcrumb"><a href="index.html">← Índice</a> · Prioridade 2</nav>
+
+<main>
+  <h1>Consultar monitoria</h1>
+  <p class="caso-de-uso"> · Ator: Aluno · listagem das sessões de monitoria disponíveis.</p>
+
+  <div class="painel">
+    <a class="botao botao-secundario" href="03-filtrar-disciplina.html">Filtrar por disciplina</a>
+
+    <table style="margin-top:16px;">
+      <tr><th>Disciplina</th><th>Monitor</th><th>Horário</th><th>Vagas</th><th></th></tr>
+      <tr>
+        <td>Estruturas de Dados</td><td>Samuel T.</td><td>Qua, 19h00</td><td>3</td>
+        <td><a href="01-realizar-agendamento.html">Agendar</a></td>
+      </tr>
+      <tr>
+        <td>Álgebra Linear II</td><td>Mina I.</td><td>Sex, 14h00</td><td>1</td>
+        <td><a href="01-realizar-agendamento.html">Agendar</a></td>
+      </tr>
+      <tr>
+        <td>Banco de Dados</td><td>Marina S.</td><td>Ter, 10h00</td><td>0</td>
+        <td><span class="badge badge-cancelado">Lotado</span></td>
+      </tr>
+      <tr>
+        <td>Engenharia de Software</td><td>Samuel T.</td><td>Qui, 16h00</td><td>4</td>
+        <td><a href="01-realizar-agendamento.html">Agendar</a></td>
+      </tr>
+    </table>
+  </div>
+</main>
+<footer class="rodape">Protótipo — dados fictícios.</footer>
+</body>
+</html>

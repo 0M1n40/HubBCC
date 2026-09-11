@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Cadastrar oportunidade acadêmica — HubBCC</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <span class="sistema">HubBCC — Oportunidades Acadêmicas</span>
+  <span class="perfil">Perfil: Professor</span>
+</header>
+<nav class="breadcrumb"><a href="index.html">← Índice</a></nav>
+
+<main>
+  <h1>Cadastrar oportunidade acadêmica</h1>
+  <p class="caso-de-uso">· Ator: Professor · publica uma nova oportunidade (iniciação científica, extensão, evento, projeto interno).</p>
+
+  <div class="painel">
+    <label for="titulo">Título</label>
+    <input id="titulo" placeholder="Ex.: Iniciação Científica em Sistemas Distribuídos">
+
+    <label for="tipo">Tipo</label>
+    <select id="tipo">
+      <option>Iniciação científica</option>
+      <option>Extensão</option>
+      <option>Evento</option>
+      <option>Projeto interno</option>
+    </select>
+
+    <div class="linha">
+      <div>
+        <label for="vagas">Vagas</label>
+        <input type="number" id="vagas" value="2" min="1">
+      </div>
+      <div>
+        <label for="prazo">Prazo para candidatura</label>
+        <input type="date" id="prazo">
+      </div>
+    </div>
+
+    <label for="requisitos">Requisitos</label>
+    <textarea id="requisitos" placeholder="Ex.: ter cursado Estruturas de Dados, disponibilidade de 8h semanais"></textarea>
+
+    <label for="descricao">Descrição</label>
+    <textarea id="descricao" placeholder="Ex.: pesquisa sobre algoritmos de consenso em sistemas distribuídos"></textarea>
+
+    <div class="acoes">
+      <button class="botao-primario" type="button" onclick="window.location='oa-02-consultar-oportunidades.html'">Publicar oportunidade</button>
+      <a class="botao botao-secundario" href="oa-02-consultar-oportunidades.html">Cancelar</a>
+    </div>
+  </div>
+</main>
+<footer class="rodape">Protótipo — dados fictícios.</footer>
+</body>
+</html>
