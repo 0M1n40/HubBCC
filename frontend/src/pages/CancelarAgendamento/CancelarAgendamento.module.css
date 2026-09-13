@@ -1,0 +1,17 @@
+.painel {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px;
+  margin-bottom: 16px;
+}
+
+.alerta {
+  border: 1px solid var(--warn);
+  background: #fbecec;
+  color: var(--warn);
+  padding: 12px 14px;
+  border-radius: var(--radius);
+  font-size: 0.9rem;
+  margin-bottom: 16px;
+}

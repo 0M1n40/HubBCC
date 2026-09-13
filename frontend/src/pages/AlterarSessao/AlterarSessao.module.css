@@ -1,0 +1,16 @@
+.painel {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px;
+  margin-bottom: 16px;
+}
+
+.linha {
+  display: flex;
+  gap: 12px;
+}
+
+.linha > div {
+  flex: 1;
+}

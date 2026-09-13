@@ -1,0 +1,44 @@
+.painel {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px;
+  margin-bottom: 16px;
+}
+
+.tabela {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.tabela th,
+.tabela td {
+  text-align: left;
+  padding: 9px 10px;
+  border-bottom: 1px solid var(--border);
+}
+
+.tabela th {
+  color: var(--muted);
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+.tabelaAcoes a {
+  margin-right: 10px;
+  font-size: 0.85rem;
+  color: var(--accent);
+}
+
+.badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.badgeOk { background: #e4f3e9; color: var(--ok); }
+.badgePendente { background: #fdf2df; color: #9a6a10; }
+.badgeCancelado { background: #f7e6e6; color: var(--warn); }
